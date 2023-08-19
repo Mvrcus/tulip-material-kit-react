@@ -3,12 +3,20 @@
 * Material Kit 2 React - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Marcus Wilson (https://www.marcustwilson.com)
 
-Coded by www.creative-tim.com
 
- =========================================================
+
+
+Coded by www.marcustwilson.com
+
+
+
+
+ =========================================================
+
+
+
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -42,21 +50,21 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Why choose
                     <br />
-                    Material Kit
+                    Tulip City Cleaning?
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Find out what makes Tulip City Cleaning stand out from others"
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Contact Us"
+                description="Reach out to us with your preffered method!"
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Click to contact",
                 }}
               />
             </RotatingCard>
@@ -66,16 +74,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  title="Qualified & Trustworthy Cleaners"
+                  description="We carefully screen, select, and train our professionals. As employees, every team member is vetted with ample experience servicing homes in West Michigan"
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  title="Streamlined Online Booking"
+                  description="Our online quoting and booking system is fast & user-friendly. Feel free to get a quote, book a cleaning, and quickly put any special request in your account."
                 />
               </Grid>
             </Grid>
@@ -83,15 +90,15 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  title="100% Satisfaction Guarantee"
+                  description="Our primary goal is your happiness. If our technicians miss a spot, do let us know. Our team will re-clean the area at no extra charge anytime during the following 24-hour window."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
                   icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  title="Local Family Owned Cleaning Company"
+                  description="We’re a local family-owned and operated company. Our varied residential and commercial cleaning services are available in West Michigan"
                 />
               </Grid>
             </Grid>

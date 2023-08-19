@@ -3,10 +3,9 @@
 * Material Kit 2 React - v2.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Marcus Wilson (https://www.marcustwilson.com)
 
-Coded by www.creative-tim.com
+Coded by www.marcustwilson.com
 
  =========================================================
 
@@ -44,7 +43,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/tulip-bg-home-alt.webp";
 
 function Presentation() {
   return (
@@ -54,7 +53,7 @@ function Presentation() {
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          label: "book appointment",
           color: "info",
         }}
         sticky
@@ -83,7 +82,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Tulip City Cleaning{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +91,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              West Michigan&apos;s top quality cleaners!
             </MKTypography>
           </Grid>
         </Container>
@@ -109,10 +107,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
         <Information />
-        <DesignBlocks />
-        <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
